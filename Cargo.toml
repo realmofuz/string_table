@@ -4,6 +4,7 @@ version = "1.0.0"
 edition = "2021"
 description = "A rust crate for a speedy String-based HashMap."
 authors = [ "realmofuz" ]
+license = "Apache-2.0"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
