@@ -11,6 +11,9 @@ license = "Apache-2.0"
 nohash-hasher = "0.2.0"
 random-string = "1.0"
 
+[dev-dependencies]
+hashbrown = "0.14.0"
+
 # This example benchmarks the `string_hash` function.
 [[example]]
 path = "examples/hash_benchmark.rs"
@@ -19,3 +22,11 @@ name = "hash_benchmark"
 [[example]]
 path = "examples/table_tester.rs"
 name = "table_tester"
+
+[[example]]
+path = "examples/vs_hashmap.rs"
+name = "vs_hashmap"
+
+[[example]]
+path = "examples/vs_hashbrown.rs"
+name = "vs_hashbrown"
